@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Merienda One', cursive;
+}
+
+header {
+    background-image: linear-gradient(#21262B, black, #21262B);
+    color: #5af9b5;
+    border: 2px solid #5af9b5;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px gray;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h3, h4 {
+    letter-spacing: 3px;
+    color: #5af9b5;
+}
+
+h1 {
+    text-decoration-line: underline;
+}
+
+h3 {
+    font-size: 19px;
+    text-decoration-line: underline;
+}
+
+#phone, #email {
+    background-color: #5af9b5;
+    border-radius: 500px;
+    width: 30px;
+    height: 30px;
+}
+
+body {
+    background-color: gray;
+}
+
+#myPic {
+    border-radius: 325px;
+    padding: 3px;
+    height: 325px;
+    width: 325px;
+    box-shadow: 5px 5px;
+}
+
+#FB, #TW, #LI, #GH {
+    border-radius: 60px;
+    padding: 3px;
+}
+
+img {
+    border: 3px solid #5af9b5;
+}
+
+.enlarge {
+    transform: scale(1.5,1.5);
+}
+
+.flex-container {
+    background-image: url(images/zelda1.jpg);
+    background-size: cover;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    min-height: calc(100vh - 174px - 123px);
+}
+
+footer {
+    background-image: linear-gradient(#21262B, black, #21262B);
+    text-shadow: 2px 2px 5px gray;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+    border: 2px solid #5af9b5;
+}
+
+button {
+    color:#21262B;
+    background-color: #5af9b5;
+    padding: 3px;
+    border-radius:3px;
+    font-family: 'Merienda One', cursive;
+    cursor: pointer;
+}
+
+.box1head, .box2head {
+    background-image: linear-gradient(#21262B, black, #21262B);
+    color: #5af9b5;
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+
+.box1body, .box2body {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px;
+}
+
+.box1body {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box2body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    color: #5af9b5;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
